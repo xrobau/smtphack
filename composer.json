@@ -1,0 +1,20 @@
+{
+    "name": "xrobau/smtphack",
+    "description": "Simple Tool that uses PHPMailer to inject raw emails into a SMTP Server",
+    "type": "library",
+    "license": "AGPL3",
+    "autoload": {
+        "psr-4": {
+            "xrobau\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rob Thomas",
+            "email": "xrobau@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
